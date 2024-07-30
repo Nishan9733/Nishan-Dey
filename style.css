@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+@media(max-width:600px){
+    .slider{
+        height: auto!important;
+    }
+    .slider img{
+        height: 300px;
+    }
+    .about{
+        height: auto;   
+  }
+  .team-area{
+        height: auto!important;
+    } 
+    .team-area img{
+       margin-top: 20px;
+    } 
+    .naviarea nav{
+        height: auto!important;
+        margin-top: -65px;
+    }
+    .naviarea nav #navbarNav{
+        background-color: #fff;
+        height: auto;
+        z-index: 9999;
+    }
+    .naviarea nav #navbarNav a{
+        line-height: 30px;
+      
+    }
+    .logo-area img{
+        float: right;
+    }
+    .social-meadia{
+        display: none;
+    }
+    
+}
+.topbar{
+    height: 80px;
+     background-color: #A8DF8E; 
+}
+.topbar .logo-area{
+    height: 80px;
+}
+.topbar .logo-area img{
+    display: block;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 2px;
+}
+.naviarea{
+    height: 80px;
+}
+.naviarea nav ul li a{
+   line-height: 50px;
+   color: #000!important;
+   margin-left: 15px;
+   font-weight: 500;
+}
+.social-meadia{
+    height: 80px;
+}
+.social-meadia a{
+    font-size: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    line-height: 80px;
+    color: #000;
+    text-decoration: none;
+}
+.social-meadia .fa-facebook-f{
+    color: #fff;
+    background-color: #3b5998;
+    padding: 8px 12px;
+    border-radius: 50px;
+}
+.social-meadia .fa-youtube{
+    color: #fff;
+    background-color:  #ff0000;
+    padding: 8px 7px;
+    border-radius: 50px;
+}
+.social-meadia .fa-twitter{
+    color: #fff;
+    background-color: #1da1f2;
+    padding: 8px 8px;
+    border-radius: 50px;
+}
+.social-meadia .fa-phone-alt{
+    color: #000;
+}
+.slider{
+    height: 550px;
+}
+
+
+.about-area{
+    height: auto;
+    /* background-color: red; */
+}
+.about-area .notice .card{
+    height: 350px;
+}
+.marq{
+    height: 300px;
+}
+.team-area{
+    height: auto;
+}   
+.team-area img{
+    border-radius: 8px;
+}
+.footer{
+    height: auto;
+    background-color:#000;
+}
+.footer h5{
+    border-bottom: 1px solid #fff;
+}
+.useful a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+}
+.useful a:hover{
+    color: blue;
+}
+.form-area{
+    height: auto;
+}
+.form-area select{ 
+    width: 300px;
+}
